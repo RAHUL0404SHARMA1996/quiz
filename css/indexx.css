@@ -1,0 +1,130 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 65%;
+  padding: 20px;
+  text-align: center;
+}
+.footer
+{
+padding: 15px 0;
+background-color: #101010;
+color:white;
+bottom: 0;
+width: 100%;
+position:fixed;
+
+
+}
+
+.field-icon {
+float: right;
+margin-left: -25px;
+margin-top: -25px;
+position: relative;
+z-index: 2;
+}
+@media screen and (max-width: 600px) {
+.modal-dialog modal-sm
+{
+margin-top:20%;
+
+}}
+
+.google-button {
+height: 40px;
+border-width: 1;
+background: white;
+color: #737373;
+border-radius: 5px;
+white-space: nowrap;
+
+transition-property: background-color, box-shadow;
+transition-duration: 150ms;
+transition-timing-function: ease-in-out;
+padding: 0;
+
+&:focus,
+&:hover {
+box-shadow: 1px 4px 5px 1px rgba(0,0,0,0.1);
+}
+
+&:active {
+background-color: #e5e5e5;
+box-shadow: none;
+transition-duration: 10ms;
+}
+}
+
+.google-button__icon {
+display: inline-block;
+vertical-align: middle;
+margin: 8px 0 8px 8px;
+width: 18px;
+height: 18px;
+box-sizing: border-box;
+}
+
+.google-button__icon--plus {
+width: 27px;
+}
+
+.google-button__text {
+display: inline-block;
+vertical-align: middle;
+padding: 0 24px;
+font-size: 14px;
+font-weight: bold;
+font-family: 'Roboto',arial,sans-serif;
+}
+
+
+button ~ button {
+margin-left: 20px;
+}
+.btn-facebook {
+	background: #3B5998;
+border-radius: 0;
+color: #fff;
+border-width: 1px;
+border-style: solid;
+border-color: #263961; 
+
+border-radius: 5px;
+white-space: nowrap;
+
+transition-property: background-color, box-shadow;
+transition-duration: 150ms;
+transition-timing-function: ease-in-out;
+display: inline-block;
+vertical-align: middle;
+
+font-size: 14px;
+font-weight: bold;
+font-family: 'Roboto',arial,sans-serif;
+
+
+}
+.btn-facebook:link, .btn-facebook:visited {
+color: #fff;
+}
+.btn-facebook:active, .btn-facebook:hover {
+background: #263961;
+color: #fff;
+}
